@@ -1,0 +1,33 @@
+// COLORS
+$primary-color: red;
+
+// If you are interested; https://color.adobe.com/winter-color-theme-144041 🙂
+$white: #F4FFFF;
+$ultra-light-grey: #E1EBEB;
+$light-grey: #B7BFBF;
+$medium-grey: #646969;
+$dark-grey: #272929;
+
+// FONTS
+$primary-font: 'Inter UI';
+// $primary-font: 'Overpass', sans-serif;
+$primary-font-size: 15px;
+
+// SIZES
+$container-width: 1200px;
+
+// GUTTER / GRID
+$gutter: 24;
+$basic-radius: 2px;
+$page-radius: #{ $gutter }px;
+$border-width: 2px;
+
+// BREAKPOINTS
+$phone-small: 320px;
+	  $phone: 480px;
+	 $tablet: 720px;
+	 $laptop: 1140px;
+
+// ANIMATIONS
+$speed: 200ms;
+$easing: ease-in-out;

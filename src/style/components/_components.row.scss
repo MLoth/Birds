@@ -1,0 +1,15 @@
+@import  '../settings/_settings.global';
+
+.c-row {
+	padding: 0 #{ $gutter / 2 }px;
+}
+
+.c-row--lg {
+    padding-top: #{ $gutter * 2 }px;
+    padding-bottom: #{ $gutter * 2 }px;
+}
+
+.c-row--footer {
+	color: $dark-grey;
+	background: $ultra-light-grey;
+}
