@@ -1,0 +1,23 @@
+@import '../settings/_settings.global';
+
+.c-bird-tile {
+	width: calc( 100% + #{$gutter }px );
+	// margin-bottom: #{ $gutter / 100 }px;
+	box-shadow: 1px 1px 6px 0 transparentize( $dark-grey, .9 );
+
+	// scale for later on an correct to push to the sides.
+	transform: scale( .6 ) translateX( -33.33% );
+	transition: transform $speed cubic-bezier(0.77, 0, 0.175, 1);
+	will-change: transform;
+
+	z-index: 2;
+
+	&--full {
+		transform: scale( 1 ) translateX( -#{$gutter / 2 }px );
+		z-index: 4;
+	}
+
+	&.is-expanded {
+		
+	}
+}
