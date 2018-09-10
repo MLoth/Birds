@@ -1,4 +1,5 @@
-# birds
+# Birds
+A Vue JS app to show some (very basis) Vue.js action.
 
 ## Project setup
 ```
